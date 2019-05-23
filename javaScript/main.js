@@ -1,1 +1,0 @@
-alert("Este é o perfil de Luiz. Aceita velo?");
