@@ -1,6 +1,23 @@
 body {
     font-size: 62.5%;
+    text-align: center;
+    background-image: -moz-linear-gradient(#d3d4d7, #7396d1, #6378c9);
+    background-image: -webkit-linear-gradient(#d3d4d7, #7396d1, #6378c9);
+    background-image: -o-linear-gradient(#d3d4d7, #7396d1, #6378c9);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
  }
  img {
     max-width: 100%;
+
  }
+h1{
+    color: brown;
+    font-size: 50px;
+}
+#pessoal{
+    font-size: 20px;
+}
+.rodape{
+    font-size: 15px;
+}
