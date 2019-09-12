@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="setings\style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <form action="index.html" class="login-form">
+
+  <h1>Login</h1>
+
+  <div class="txtb">
+    <input type="email" pattern="fernando.portocruz@gmail.com"  required>
+    <span data-placeholder ="email"></span>
+  </div>
+
+  <div class="txtb">
+    <input type="password" pattern="23102010" maxlength="8" minlength="8" required>
+    <span data-placeholder ="password"></span>
+  </div>
+
+  <input type="submit" class="logbtn" value="Login">
+
+  <div class="bottom-text">
+    Don´t have account? <a href="#">Sing up</a>
+  </div>
+
+</form>
+
+<script type="text/javascript">
+$(".txtb input").on("focus",function(){
+  $(this).addClass("focus");
+});
+
+$(".txtb input").on("blur",function(){
+  if($(this).val() == "")
+  $(this).removeClass("focus");
+});
+
+</script>
+
+</body>
+</html>
